@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+
+    <title>EFood</title>
+  </head>
+  <body>
+    <div class="loader-parent">
+      <div class="loader">
+        <span class="loader-text">loading</span>
+        <span class="load"></span>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="logo">
+            <h1 class="logo__title"><span class="logo_e">E</span>Food</h1>
+          </div>
+
+          <div class="nav__right">
+            <ul class="nav__items">
+              <li><a href="#" class="nav__link active_nav">Home</a></li>
+              <li><a href="#" class="nav__link">Service</a></li>
+              <li><a href="#" class="nav__link">Top cities</a></li>
+              <li><a href="#" class="nav__link">Contract</a></li>
+            </ul>
+
+            <div class="nav__icons">
+              <div class="nav_burger">
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+              </div>
+              <img
+                src="images/Search.png"
+                alt="search"
+                class="nav__icons_search"
+              />
+              <img src="images/Buy.png" alt="buy" class="nav__icons_buy" />
+              <button class="nav__icons_btn">Sign Up</button>
+            </div>
+          </div>
+        </header>
+
+        <section class="main">
+          <div class="main__title">
+            <h1>
+              <span class="main__span">Super Fast</span> Food Delivery
+              <span class="main__span">Service</span>
+            </h1>
+            <p>
+              We provide super fast-delivery service. Let’s use our <br />
+              services right now and get discounts of up to 50%
+            </p>
+            <div class="main__btns">
+              <button class="main__btn_food">Explore Food</button>
+              <button class="main__btn_app">Download App</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="category">
+          <h1 class="category__title">Our popular <span>Category</span></h1>
+
+          <div class="category__items">
+            <button class="category__items_btn burger" id="burger">
+              Burger
+            </button>
+            <button class="category__items_btn pizza" id="pizza">Pizza</button>
+            <!-- <button class="category__items_btn sandwich">sandwich</button>
+            <button class="category__items_btn asia_food">Asian Food</button>
+            <button class="category__items_btn set_menu">Set Menu</button> -->
+          </div>
+          <div class="card__parent">
+            <div class="category__cards active__card" id="burger">
+              <div class="category__card">
+                <img src="images/card_1.png" alt="Salad" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Cheeseburger With Salad</p>
+                <span>$18.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img src="images/card_2.png" alt="Burger" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Beef Burger</p>
+                <span>$15.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img
+                  src="images/card_3.png"
+                  alt="Cheeseburger"
+                  class="card__img"
+                />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Royel Cheeseburger</p>
+                <span>$16.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img
+                  src="images/card_4.png"
+                  alt="Gambugrer"
+                  class="card__img"
+                />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Black Gambugrer</p>
+                <span>$14.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img src="images/card_5.png" alt="Chicken" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Chicken Burger</p>
+                <span>$15.00</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+            <div class="category__cards" id="pizza">
+              <div class="category__card">
+                <img src="images/card_12.png" alt="Salad" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Cheeseburger With Salad</p>
+                <span>$18.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img src="images/card_22.png" alt="Burger" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Beef Burger</p>
+                <span>$15.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img
+                  src="images/card_32.png"
+                  alt="Cheeseburger"
+                  class="card__img"
+                />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Royel Cheeseburger</p>
+                <span>$16.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img
+                  src="images/card_43.png"
+                  alt="Gambugrer"
+                  class="card__img"
+                />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Black Gambugrer</p>
+                <span>$14.00</span>
+                <button>Add to Cart</button>
+              </div>
+
+              <div class="category__card">
+                <img src="images/card_53.png" alt="Chicken" class="card__img" />
+                <img src="images/Star.png" alt="Star" class="star" />
+                <p>Chicken Burger</p>
+                <span>$15.00</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="pagination">
+            <img src="images/left_arrow.png" alt="left" class="right__arrow" />
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+
+            <img src="images/right_arrow.png" alt="right" />
+          </div>
+        </section>
+
+        <section class="stay__home">
+          <div class="stay__home_text">
+            <h1 class="stay__h1">
+              <span class="stay__span">Stay</span> At Home, We Will Provide
+              <span class="stay__span">Good Food</span>
+            </h1>
+            <p>
+              We provide tasty food and superfast delivery at your home. Let’s
+              use our services right now and get discounts of up to 50%.
+            </p>
+            <div class="stay__home_shop">
+              <div class="stay__item">
+                <img src="images/Timer_icon.png" alt="timer" />
+                <p>fasted delivery in 30 Minutes</p>
+              </div>
+              <div class="stay__item">
+                <img src="images/Delivery_icon.png" alt="deliver" />
+                <p>300+ delivery men</p>
+              </div>
+              <div class="stay__item">
+                <img src="images/Resturent.png" alt="Resturent" />
+                <p>500+ restaurant & cafe shop</p>
+              </div>
+            </div>
+
+            <button class="stay__btn">See more</button>
+          </div>
+        </section>
+
+        <section class="meals__category">
+          <h1>Top Food <span>Restaurant</span></h1>
+          <div class="meal__cards">
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_1.png"
+                alt="1"
+                class="meal__card_img"
+              />
+              <h3>Blaze Pizza</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_2.png"
+                alt="2"
+                class="meal__card_img"
+              />
+              <h3>Pizza Ranch</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_3.png"
+                alt="3"
+                class="meal__card_img"
+              />
+              <h3>Dion’s Pizza Hut</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_4.png"
+                alt="4"
+                class="meal__card_img"
+              />
+              <h3>Royel Burger</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_5.png"
+                alt="5"
+                class="meal__card_img"
+              />
+              <h3>KFC Restaurant</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+
+            <div class="meal__card">
+              <img
+                src="images/Rectangle_6.png"
+                alt="6"
+                class="meal__card_img"
+              />
+              <h3>Star Food</h3>
+              <div class="meal__card_time">
+                <img src="images/Group_time.png" alt="gt" />
+                <span>11.00 AM - 10.00 PM</span>
+                <button></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mobile_app">
+          <div class="mobile_download">
+            <h1>Download Our <span>Mobile App</span></h1>
+            <p>
+              It's all at your fingertips -- the restaurants you love. Find the
+              right food to suit your mood, and make the first bite last. Go
+              ahead, download app and get 50% discount
+            </p>
+            <div>
+              <img src="images/google_play.png" alt="google_play" />
+              <img src="images/app_store.png" alt="app" />
+            </div>
+          </div>
+        </section>
+
+        <section class="client">
+          <h1>What Our Client Are <span>Saying</span></h1>
+          <div class="angelina">
+            <div class="angeline_text">
+              <p>
+                EFood has the most intriguing food order system in the country.
+                UI in both their app and web Is very simple and easy to use,
+                enhancing the UX. Their delivery men are also quite professional
+                and knows the neighborhood well. Till now I never had to guide
+                them to my address for delivery;
+              </p>
+              <div class="angelina_items">
+                <div class="angeline_left">
+                  <a href="#" class="angelina_link_1">Anglina Jole</a>
+                  <a href="#" class="angelina_link_2">Food lover</a>
+                </div>
+                <div class="angeline__right">
+                  <img src="images/ArrowLeft.png" alt="left" />
+                  <img src="images/ArrowRight.png" alt="right" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="email">
+          <h1>Subscribe to get the Latest Offer</h1>
+          <p>
+            Get our daily updates by subscribing to our newspaper, please drop
+            your email below
+          </p>
+          <div>
+            <input type="email" placeholder="Enter your email addres" />
+            <button class="email_btn">Subscribe</button>
+          </div>
+        </section>
+
+        <section class="e_footer_content">
+          <div class="e_footer">
+            <div class="item-1">
+              <h1 class="logo__title"><span class="logo_e">E</span>Food</h1>
+              <div class="footer_icon">
+                <img src="images/Location.png" alt="Location" /><span
+                  id="location"
+                  >Dhaka, Bangladesh</span
+                >
+              </div>
+              <div class="footer_icon">
+                <img src="images/Calling.png" alt="calling" />
+                <span>0943833399</span>
+              </div>
+              <div class="footer_icon">
+                <img src="images/Message.png" alt="message" />
+
+                <span>support@efood.com</span>
+              </div>
+              <div class="web_app">
+                <img src="images/facebook.png" alt="facebook" />
+                <img src="images/twitter.png" alt="twitter" />
+                <img src="images/instagram.png" alt="insta" />
+                <img src="images/pinterest.png" alt="pinterest" />
+              </div>
+            </div>
+            <div class="item-2">
+              <p class="item-span">
+                <b>Service</b> <br />
+                How it works Home delivery Products <br />
+                Menu
+              </p>
+            </div>
+
+            <div class="item-3">
+              <p class="item-span">
+                <b>Company</b> <br />
+                About Us <br />
+                News <br />
+                Our trusted partner New users FAQ
+              </p>
+            </div>
+            <div class="item-4">
+              <p class="item-span">
+                <b>Supports</b> <br />
+                Help center Feedbcak Contact us Terms conditins
+              </p>
+            </div>
+            <div class="item-5">
+              <p class="item-span">
+                <b>Resources</b> Download app Blog <br />
+                What’s new Sitemap
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="footer">
+            <p>© 2023 EFood - All rights reserved.</p>
+            <ul>
+              <li>Privacy</li>
+              <li>Security</li>
+              <li>Terms</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

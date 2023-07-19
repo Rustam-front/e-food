@@ -1,0 +1,290 @@
+@media (max-width: 576px) {
+  body {
+    background-position: left;
+  }
+  .nav__items {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav_burger {
+    display: flex;
+  }
+  .nav__icons {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .nav__icons_buy {
+    margin: 0;
+  }
+  .nav__right {
+    width: 100%;
+  }
+  .main {
+    background: none;
+  }
+  .main__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .category__items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .category__items_btn {
+    margin-top: 40px;
+  }
+  .category__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .category__card {
+    margin-top: 30px;
+  }
+  .stay__home {
+    background: none;
+  }
+  .stay__home_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .meal__cards {
+    justify-content: center;
+  }
+  .meal__card {
+    width: 80%;
+  }
+  .mobile_app {
+    background: none;
+  }
+  .mobile_download {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+  }
+  .angelina {
+    justify-content: center;
+    background: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .nav__items {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    /* padding: 10px 0; */
+  }
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav_burger {
+    display: flex;
+  }
+  .nav__icons {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .nav__icons_buy {
+    margin: 0;
+  }
+  .nav__right {
+    width: 100%;
+  }
+  .main {
+    background: none;
+  }
+  .main__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .category__items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .category__items_btn {
+    margin-top: 40px;
+  }
+  .category__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .category__card {
+    margin-top: 30px;
+  }
+  .stay__home {
+    background: none;
+  }
+  .stay__home_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .meal__cards {
+    justify-content: center;
+  }
+  .mobile_app {
+    justify-content: center;
+    background: none;
+  }
+  .mobile_download {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+  }
+  .angelina {
+    justify-content: center;
+    background: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .nav__items {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav_burger {
+    display: flex;
+  }
+  .nav__icons {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .nav__icons_buy {
+    margin: 0;
+  }
+  .nav__right {
+    width: 100%;
+  }
+  .category__items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .category__items_btn {
+    margin-top: 40px;
+  }
+  .category__cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .category__card {
+    margin-top: 30px;
+  }
+  .stay__home {
+    background: none;
+  }
+  .stay__home_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .meal__cards {
+    justify-content: center;
+  }
+  .mobile_app {
+    justify-content: center;
+    background: none;
+  }
+  .mobile_download {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .angelina {
+    justify-content: center;
+    background: none;
+  }
+}
+@media (min-width: 870px) and (max-width: 992px) {
+  .meal__cards {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .test {
+    background-color: black;
+  }
+  .category__items_btn {
+    width: 160px;
+    padding-right: 20px;
+
+    background-position-x: 20px;
+  }
+  .category__card {
+    width: 160px;
+  }
+  .stay__home {
+    background-size: 50%;
+    background-position-y: center;
+  }
+  .mobile_app {
+    background-size: 40%;
+    background-position-y: center;
+  }
+  .angelina {
+    justify-content: center;
+    background: none;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .mobile_app {
+    background-size: 50%;
+    background-position-y: center;
+  }
+}
+@media (min-width: 1400px) {
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .category__items_btn {
+    width: 190px;
+    padding-right: 20px;
+  }
+  .category__card {
+    width: 180px;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    background-size: cover;
+  }
+}
+/* JS CLASSES */
+.hide {
+  display: none;
+}
+.show {
+  width: 100%;
+  height: 100%;
+
+  opacity: 1;
+  overflow: visible;
+}
